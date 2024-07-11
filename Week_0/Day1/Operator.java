@@ -38,15 +38,16 @@ public class Operator {
         //     //WHILE LOOP
         //     //Q PRINT FIRST MULTIPLE OF 2&7 BW 5 TO 15
 
-            int sum=0,  i=5;
+            int i=5;
             while(i<15){
                 //Code
-                if (!(i%2==0|i%7==0)){
-                    sum=sum+i;
+                if (i%2==0 && i%7==0){
+                    System.out.println(i);
                 }
                 i++;
+                
             }
-            System.out.println(i);
+           
         }
 }
   
